@@ -2,19 +2,19 @@
   "libraries": [
     {
       "name": "Madara",
-      "ver": "2.4.4"
+      "ver": "2.9.0"
     }
   ],
   "scripts": [
     {
-      "name": "NightcoreNovels",
+      "name": "Nightcore Novels",
       "fileName": "NightcoreNovels",
       "imageURL": "https://github.com/NightcoreJack/NightcoreNovels/blob/main/icons/nightcorenovels.png",
       "id": 2750,
       "lang": "en",
-      "ver": "1.0.0",
+      "ver": "1.0.1",
       "libVer": "1.0.0",
       "md5": ""
-    },
+    }
   ]
 }
