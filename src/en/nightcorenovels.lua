@@ -11,5 +11,23 @@ return Require("Madara")("https://nightcorenovels.com", {
 
 	-- There are paid chapters, we can ignore it
 	chaptersListSelector= "li.wp-manga-chapter.free-chap",
-		
+
+	genres = {
+		"Action",
+		"Adventure",
+		"Comedy",
+		"Dark Elf",
+		"Drama",
+		"Fantasy",
+		"Harem",
+		"Isekai",
+		"Mecha",
+		"Mystery",
+		"Original Works",
+		"Rom-Com",
+		"Romance",
+		"School",
+		"Shoujo",
+		"Slice of Life"
+	}
 })
