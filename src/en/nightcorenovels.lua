@@ -1,33 +1,51 @@
--- {"id":2750,"ver":"1.0.1","libVer":"1.0.0","author":"Doomsdayrs","dep":["Madara>=2.2.0"]}
+-- {"id":0625,"ver":"2.1.1","libVer":"1.0.0","author":"TechnoJo4","dep":["Madara>=2.2.0"]}
 
-return Require("Madara")("https://nightcorenovels.com", {
-	id = 2750,
+return Require("Madara")("https://www.nightcorenovels.com", {
+	id = 0625,
 	name = "Nightcore Novels",
-	imageURL = "https://github.com/NightcoreJack/NightcoreNovels/blob/main/icons/nightcorenovels.png",
+	imageURL = "https://github.com/nightcorejack/nightcorenovels/raw/dev/icons/nightcorenovels.png",
 
 	-- defaults values
-	latestNovelSel = "div.page-listing-item",
-	ajaxUsesFormData = true,
-
-	-- There are paid chapters, we can ignore it
-	chaptersListSelector= "li.wp-manga-chapter.free-chap",
+	latestNovelSel = "div.col-12.col-md-3.badge-pos-2",
 
 	genres = {
 		"Action",
 		"Adventure",
+		"BG",
+		"BL",
 		"Comedy",
-		"Dark Elf",
 		"Drama",
+		"Ecchi",
 		"Fantasy",
+		"Gender Bender",
+		"GL",
 		"Harem",
+		"Historical",
+		"Horror",
 		"Isekai",
+		"Josei",
+		"Martial Arts",
+		"Mature",
 		"Mecha",
+		"Modern",
 		"Mystery",
-		"Original Works",
-		"Rom-Com",
+		"Psychological",
+		"Rebirth",
 		"Romance",
-		"School",
+		"School Life",
+		"Sci-fi",
+		"Seinen",
 		"Shoujo",
-		"Slice of Life"
+		"Slice of Life",
+		"Supernatural",
+		"Thai Novel",
+		"Tragedy",
+		"Transmigration",
+		"Wuxia",
+		"Xianxia",
+		"Xuanhuan",
+		chinese = "Chinese Novel",
+		japanese = "Japanese Novels",
+		original = "Original Novel",
 	}
 })
