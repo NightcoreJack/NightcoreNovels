@@ -1,18 +1,30 @@
 {
   "libraries": [
     {
+      "name": "CommonCSS",
+      "ver": "1.0.1"
+    },
+    {
+      "name": "dkjson",
+      "ver": "1.0.1"
+    },
+    {
+      "name": "url",
+      "ver": "1.0.0"
+    },
+    {
       "name": "Madara",
       "ver": "2.9.0"
     }
   ],
   "scripts": [
     {
-      "name": "Nightcore Novels",
-      "fileName": "NightcoreNovels",
-      "imageURL": "https://github.com/NightcoreJack/NightcoreNovels/blob/main/icons/nightcorenovels.png",
+      "name": "Nightcorenovels",
+      "fileName": "Nightcorenovels",
+      "imageURL": "https://nightcorenovels.com/wp-content/uploads/2023/03/434d12f09f54479bd346b9937b32c5f1.png",
       "id": 7474,
       "lang": "en",
-      "ver": "1.0.1",
+      "ver": "2.1.0",
       "libVer": "1.0.0",
       "md5": ""
     }
